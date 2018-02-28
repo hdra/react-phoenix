@@ -20,13 +20,13 @@
   ],
   "homepage": "https://github.com/geolessel/react-phoenix#readme",
   "devDependencies": {
-    "uglify-js": "^2.8.29"
-  },
-  "dependencies": {
+    "uglify-js": "^2.8.29",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2"
+    "babel-preset-react": "^6.24.1"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
